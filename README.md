@@ -2,6 +2,8 @@
  - Game includes bet , balance and win params . 
  - On each reload one default response will be selected and according to that after spin , above mentioned params will get updated . 
 
+ Demo : https://madhuri-11.github.io/slotAssignment.github.io/
+
 # Task #
 
 Given a set of symbol assets and dummy responses create your own very simple slot machine
