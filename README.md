@@ -1,3 +1,7 @@
+
+
+https://user-images.githubusercontent.com/47626223/204873020-173f5ef1-4e1b-4b9b-a2b2-48f7f95861dc.mp4
+
 # Simple Slot Machine Game 1 x 4 Grid 
  - Game includes bet , balance and win params . 
  - On each reload one default response will be selected and according to that after spin , above mentioned params will get updated . 
