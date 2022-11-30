@@ -89,13 +89,13 @@ window.addEventListener('load', function () {
     app = new PIXI.Application(config);
     //Add the canvas that Pixi automatically created for you to the HTML document
     app.loader
-        .add('symbol_0', '/assets/symbols/symbol_00.json')
-        .add('symbol_1', '/assets/symbols/symbol_01.json')
-        .add('symbol_2', '/assets/symbols/symbol_02.json')
-        .add('symbol_3', '/assets/symbols/symbol_03.json')
-        .add('symbol_4', '/assets/symbols/symbol_04.json')
-        .add('symbol_5', '/assets/symbols/symbol_05.json')
-        .add('reelsBg',  '/assets/reelsBg.jpg')
+        .add('symbol_0', './assets/symbols/symbol_00.json')
+        .add('symbol_1', './assets/symbols/symbol_01.json')
+        .add('symbol_2', './assets/symbols/symbol_02.json')
+        .add('symbol_3', './assets/symbols/symbol_03.json')
+        .add('symbol_4', './assets/symbols/symbol_04.json')
+        .add('symbol_5', './assets/symbols/symbol_05.json')
+        .add('reelsBg',  './assets/reelsBg.jpg')
         .load(function (loader, resources) {
             symbol_0 = app.stage.addChild(new PIXI.spine.Spine(resources.symbol_0.spineData));
             symbol_0.position.set(app.renderer.width * 0.5, app.renderer.height + 100);
